@@ -1,0 +1,35 @@
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article__div{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+.article__div h2 {
+
+}
+.articles__div p {
+  
+}
+
+.article__figure {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+
+.article__figure h1 {
+    margin: 0;
+    padding: 0;
+}
+.article:nth-of-type(odd) {
+    background-color: aquamarine;
+}
+.article:nth-of-type(odd) .article__figure{
+    order: -1;
+} 
